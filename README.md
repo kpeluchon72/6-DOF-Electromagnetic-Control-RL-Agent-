@@ -3,6 +3,8 @@
 A Python simulation that uses reinforcement learning to control a magnetic
 dipole with six electromagnets.
 
+![Demo](img/watch_agent_img.png)
+
 ## Setup
 
 ```bash
