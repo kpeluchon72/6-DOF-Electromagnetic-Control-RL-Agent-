@@ -1,0 +1,6 @@
+numpy
+numba
+vpython
+gymnasium
+stable-baselines3
+setuptools<81  # VPython still imports pkg_resources
