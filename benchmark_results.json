@@ -1,0 +1,50 @@
+{
+  "system": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "python": "3.13.0",
+    "logical_cpus": 12,
+    "numpy": "2.5.2"
+  },
+  "physics": {
+    "actions": 5000,
+    "substeps_per_action": 5,
+    "physics_steps": 25000,
+    "repeats": 3,
+    "python_seconds_median": 2.018224500003271,
+    "compiled_seconds_median": 0.014054100029170513,
+    "python_physics_steps_per_second": 12387.125416404113,
+    "compiled_physics_steps_per_second": 1778840.3347144474,
+    "speedup": 143.60396580458865,
+    "max_state_error_after_check": {
+      "position": 1.6653345369377348e-16,
+      "velocity": 9.992007221626409e-16,
+      "orientation": 1.2212453270876722e-15,
+      "angular_velocity": 1.0302869668521453e-13
+    }
+  },
+  "environment": {
+    "actions": 5000,
+    "seconds": 0.19523400004254654,
+    "environment_steps_per_second": 25610.2932834976,
+    "simulated_seconds_per_wall_second": 128.051466417488
+  },
+  "agent": {
+    "checkpoint": "magnetic_dipole_realistic_ppo.zip",
+    "training_timesteps": 5013504,
+    "policy": {
+      "episodes": 20,
+      "success_rate": 0,
+      "median_initial_distance_m": 0.08016635509027871,
+      "median_final_distance_m": 0.021937269967449706,
+      "episodes_ending_at_wall": 1
+    },
+    "zero_current_baseline": {
+      "episodes": 20,
+      "success_rate": 0,
+      "median_initial_distance_m": 0.08016635509027871,
+      "median_final_distance_m": 0.19651147749812325,
+      "episodes_ending_at_wall": 20
+    }
+  }
+}

@@ -25,3 +25,14 @@ python train_agent.py
 ```
 
 To watch a trained agent, run `python watch_agent.py`.
+
+## Benchmark
+
+Run the reproducible physics, environment, and checkpoint benchmark with:
+
+```bash
+python benchmark.py --json benchmark_results.json
+```
+
+See [BENCHMARK.md](BENCHMARK.md) for the latest measured results, methodology,
+limitations, and resume-ready project points.
